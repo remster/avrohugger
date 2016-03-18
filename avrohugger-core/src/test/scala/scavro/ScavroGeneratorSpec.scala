@@ -21,7 +21,7 @@ class ScavroGeneratorSpec extends mutable.Specification {
             |
             |import org.apache.avro.Schema
             |
-            |import com.oysterbooks.scavro.{AvroMetadata, AvroReader, AvroSerializeable}
+            |import com.oedura.scavro.{AvroMetadata, AvroReader, AvroSerializeable}
             |
             |import example.proto.{Message => JMessage}
             |
@@ -58,7 +58,7 @@ class ScavroGeneratorSpec extends mutable.Specification {
             |
             |import org.apache.avro.Schema
             |
-            |import com.scavro.{AvroMetadata, AvroReader, AvroSerializeable}
+            |import com.oedura.scavro.{AvroMetadata, AvroReader, AvroSerializeable}
             |
             |import example.proto.{Binary => JBinary}
             |
